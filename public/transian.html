@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    .container {
+      display: grid;
+      width: 748px;
+      height: 748px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      background-color: black;
+      gap: 9px;
+
+    }
+
+    #grey1 {
+      grid-column-start: span 3;
+    }
+
+    #grey2 {
+      grid-row-start: span 2;
+    }
+
+    #grey3 {
+      grid-row-start: span 2;
+      grid-column-start: span 2;
+    }
+    #grey4 {
+      grid-row-start: span 2;
+    }
+    
+
+    .red {
+      background-color: #FF90BC;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+
+    .grey {
+      background-color: #F9F9E0;
+    }
+
+    .blue {
+      background-color:#8ACDD7;
+    }
+
+    .yellow {
+      background-color: #FFC0D9;
+    }
+
+    .black {
+      background-color:#232629;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="red1" class="red"></div>
+    <div id="grey1" class="grey"></div>
+    <div id="grey2" class="grey"></div>
+    <div id="grey3" class="grey"></div>
+    <div id="blue1" class="blue"></div>
+    <div id="grey4" class="grey"></div>
+    <div id="grey5" class="grey"></div>
+    <div id="yellow" class="yellow"></div>
+    <div id="black" class="black"></div>
+  </div>
+
+  <hr />
+  <a class="mainpagebutton" href="../index.html">Main Page</a>
+  </html>
+</body>
+
+</html>
